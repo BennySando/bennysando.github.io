@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="test_style.css" />
   </head>
   <body>
     <h1>Test test</h1>
