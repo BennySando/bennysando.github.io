@@ -1,1 +1,1 @@
-document.getElementId("Head").innerHTML = "bruh";
+document.getElementId("text").innerHTML = "bruh";
