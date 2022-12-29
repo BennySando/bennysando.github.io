@@ -1,3 +1,3 @@
 function bruhify() {
-    alert("button be working");
+    document.getElementById("text").innerHTML="bruh";
 }
