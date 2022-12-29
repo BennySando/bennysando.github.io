@@ -1,3 +1,3 @@
 function bruhify() {
-    document.getElementId("text").innerHTML = "bruh";
+    document.getElementById("text").innerHTML = "bruh";
 }
