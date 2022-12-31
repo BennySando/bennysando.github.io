@@ -34,6 +34,13 @@ h1, .description {
 
 .classData p {
     display: inline;
+    width: 40%;
+    padding: 10px;
+    background-color: green;
+}
+
+.level {
+    text-align: right;
 }
 
 .statWindow {
@@ -45,7 +52,7 @@ h1, .description {
 }
 
 .statLine p {
-    display: inline-block;
+    display: inline;
     margin-top: 5px;
     margin-bottom: 5px;
 }
@@ -62,4 +69,10 @@ h1, .description {
 .modifierSpace {
     margin: 0 auto;
     margin-top: 20px;
+    width: 80%;
+    background-color: red;
+}
+
+.modifierSpace p {
+    text-align: center;
 }
