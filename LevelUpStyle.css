@@ -32,7 +32,8 @@ h1, .description {
     margin: 0 auto;
     margin-top: 5px;
     width: 50%;
-    background-color: red;
+    background-color: blue;
+    padding: 10px;
 }
 
 .statLine p {
@@ -43,12 +44,12 @@ h1, .description {
 
 .leftStat {
     text-align: left;
-    width: 50%;
+    width: 49%;
 }
 
 .rightStat {
     text-align: left;
-    width: 50%;
+    width: 49%;
 }
 
 .modifierSpace {
