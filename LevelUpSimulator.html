@@ -8,67 +8,69 @@
     <body>
         <h1>Fire Emblem Level-Up Simulator</h1>
         <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added)</p>
-        <div id="characterData" name="characterData" class="characterData">
-            <image id="charImage" name="charImage" src="https://cdn.fireemblemwiki.org/4/4b/Medium_portrait_ike_ranger_01_fe09.png?20220622152248"></image>
-            <label id="selectLabel" name="selectLabel" for="characterChoice">Select a character
-                <!--TODO: Add function to update stats when this is changed-->
-                <select id="characterSelect" name="characterSelect">
-                    <option value="0">Ike</option>
-                    <option value="1">Titania</option>
-                    <option value="2">Oscar</option>
-                    <option value="3">Boyd</option>
-                    <option value="4">Rhys</option>
-                    <option value="5">Shinon</option>
-                    <option value="6">Gatrie</option>
-                    <option value="7">Soren</option>
-                    <option value="8">Mia</option>
-                    <option value="9">Ilyana</option>
-                    <option value="10">Marcia</option>
-                    <option value="11">Mist</option>
-                    <option value="12">Rolf</option>
-                    <option value="13">Lethe</option>
-                    <option value="14">Mordecai</option>
-                    <option value="15">Volke</option>
-                    <option value="16">Kieran</option>
-                    <option value="17">Brom</option>
-                    <option value="18">Nephenee</option>
-                    <option value="19">Zihark</option>
-                    <option value="20">Jill</option>
-                    <option value="21">Sothe (Blossom)</option>
-                    <option value="22">Sothe (No Blossom)</option>
-                    <option value="23">Astrid</option>
-                    <option value="24">Makalov</option>
-                    <option value="25">Stefan</option>
-                    <option value="26">Muarim</option>
-                    <option value="27">Tormod</option>
-                    <option value="28">Devdan</option>
-                    <option value="29">Tanith</option>
-                    <option value="30">Reyson</option>
-                    <option value="31">Janaff</option>
-                    <option value="32">Ulki</option>
-                    <option value="33">Calill</option>
-                    <option value="34">Tauroneo</option>
-                    <option value="35">Ranulf</option>
-                    <option value="36">Haar</option>
-                    <option value="37">Lucia</option>
-                    <option value="38">Bastian</option>
-                    <option value="39">Geoffrey</option>
-                    <option value="40">Largo</option>
-                    <option value="41">Elincia</option>
-                    <option value="42">Ena</option>
-                    <option value="43">Nasir</option>
-                    <option value="44">Tibarn</option>
-                    <option value="45">Naesala</option>
-                    <option value="46">Giffca</option>
-                </select>
-            </label>
-        </div>
-        <div id="buttonSpace" name="buttonSpace" class="buttonSpace">
-            <!--TODO: Add onlcick that runs necessary level up functions-->
-            <button id="levelUp" name="levelUp" class="advanceButton">Level Up!</button>
-
-            <!--TODO: Add onlcick that runs necessary promotion functions-->
-            <button id="promote" name="promote" class="advanceButton" hidden>Promote!</button>
+        <div id="controls" name="controls" class="controls">
+            <div id="characterData" name="characterData" class="characterData">
+                <image id="charImage" name="charImage" src="https://cdn.fireemblemwiki.org/4/4b/Medium_portrait_ike_ranger_01_fe09.png?20220622152248"></image>
+                <label id="selectLabel" name="selectLabel" for="characterChoice">Select a character
+                    <!--TODO: Add function to update stats when this is changed-->
+                    <select id="characterSelect" name="characterSelect">
+                        <option value="0">Ike</option>
+                        <option value="1">Titania</option>
+                        <option value="2">Oscar</option>
+                        <option value="3">Boyd</option>
+                        <option value="4">Rhys</option>
+                        <option value="5">Shinon</option>
+                        <option value="6">Gatrie</option>
+                        <option value="7">Soren</option>
+                        <option value="8">Mia</option>
+                        <option value="9">Ilyana</option>
+                        <option value="10">Marcia</option>
+                        <option value="11">Mist</option>
+                        <option value="12">Rolf</option>
+                        <option value="13">Lethe</option>
+                        <option value="14">Mordecai</option>
+                        <option value="15">Volke</option>
+                        <option value="16">Kieran</option>
+                        <option value="17">Brom</option>
+                        <option value="18">Nephenee</option>
+                        <option value="19">Zihark</option>
+                        <option value="20">Jill</option>
+                        <option value="21">Sothe (Blossom)</option>
+                        <option value="22">Sothe (No Blossom)</option>
+                        <option value="23">Astrid</option>
+                        <option value="24">Makalov</option>
+                        <option value="25">Stefan</option>
+                        <option value="26">Muarim</option>
+                        <option value="27">Tormod</option>
+                        <option value="28">Devdan</option>
+                        <option value="29">Tanith</option>
+                        <option value="30">Reyson</option>
+                        <option value="31">Janaff</option>
+                        <option value="32">Ulki</option>
+                        <option value="33">Calill</option>
+                        <option value="34">Tauroneo</option>
+                        <option value="35">Ranulf</option>
+                        <option value="36">Haar</option>
+                        <option value="37">Lucia</option>
+                        <option value="38">Bastian</option>
+                        <option value="39">Geoffrey</option>
+                        <option value="40">Largo</option>
+                        <option value="41">Elincia</option>
+                        <option value="42">Ena</option>
+                        <option value="43">Nasir</option>
+                        <option value="44">Tibarn</option>
+                        <option value="45">Naesala</option>
+                        <option value="46">Giffca</option>
+                    </select>
+                </label>
+            </div>
+            <div id="buttonSpace" name="buttonSpace" class="buttonSpace">
+                <!--TODO: Add onlcick that runs necessary level up functions-->
+                <button id="levelUp" name="levelUp" class="advanceButton">Level Up!</button>
+    
+                <!--TODO: Add onlcick that runs necessary promotion functions-->
+                <button id="promote" name="promote" class="advanceButton" hidden>Promote!</button>
+            </div>
         </div>
         <div id="classData" name="classData" class="classData">
             <p id="currentClass" name="currentClass">Ranger</p>
