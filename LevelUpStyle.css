@@ -1,0 +1,53 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+}
+
+h1, .description {
+    text-align: center;
+}
+
+.characterData select image {
+    display: block;
+}
+
+.characterData, .buttonSpace {
+    display: inline;
+}
+
+.controls {
+    margin: 0 auto;
+}
+
+.classData {
+    margin: 0 auto;
+}
+
+.classData p {
+    display: inline;
+}
+
+.statWindow {
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.statline p {
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.leftStat {
+    text-align: left;
+}
+
+.rightStat {
+    text-align: right;
+}
+
+.modifierSpace {
+    margin: 0 auto;
+    margin-top: 20px;
+}
