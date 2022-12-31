@@ -7,9 +7,10 @@ function bruhify() {
 
     //How to get values from radio buttons
     let buttons = document.getElementsByName("buttons")
+    let val = 0;
     for (var i = 0; i < buttons.length; i++){
         if (buttons[i].checked){
-            let val = buttons[i];
+            val = buttons[i];
             break;
         }
     }
