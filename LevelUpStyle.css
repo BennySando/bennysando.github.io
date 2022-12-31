@@ -31,6 +31,7 @@ h1, .description {
 .statWindow {
     margin: 0 auto;
     margin-top: 5px;
+    width: 50%
 }
 
 .statline p {
