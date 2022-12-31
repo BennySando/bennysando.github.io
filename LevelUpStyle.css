@@ -32,11 +32,12 @@ h1, .description {
     margin: 0 auto;
     width: 40%;
     padding: 10px;
-    background-color: green;
+    background-color: purple;
 }
 
 .classData p {
     display: inline;
+    width: 50%;
 }
 
 .level {
@@ -52,7 +53,7 @@ h1, .description {
 }
 
 .statLine p {
-    display: inline;
+    display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
 }
