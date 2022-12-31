@@ -8,7 +8,7 @@ h1, .description {
     text-align: center;
 }
 
-.characterData select image {
+.characterData select, .characterData image {
     display: block;
 }
 
