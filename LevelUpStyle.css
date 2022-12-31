@@ -32,16 +32,16 @@ h1, .description {
     margin: 0 auto;
     width: 40%;
     padding: 10px;
-    background-color: purple;
+    background-color: green;
 }
 
 .classData p {
     display: inline;
-    width: 50%;
 }
 
 .level {
     text-align: right;
+    width: 50%;
 }
 
 .statWindow {
@@ -70,7 +70,7 @@ h1, .description {
 .modifierSpace {
     margin: 0 auto;
     margin-top: 20px;
-    width: 90%;
+    width: 95%;
     background-color: red;
 }
 
