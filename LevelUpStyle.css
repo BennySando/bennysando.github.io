@@ -43,10 +43,12 @@ h1, .description {
 
 .leftStat {
     text-align: left;
+    width: 50%;
 }
 
 .rightStat {
-    text-align: right;
+    text-align: left;
+    width: 50%;
 }
 
 .modifierSpace {
