@@ -10,8 +10,8 @@ function bruhify() {
     for (var i = 0; i < buttons.length; i++){
         if (buttons[i].checked){
             let val = buttons[i];
+            break;
         }
-        break;
     }
     if (val == 0){
         document.getElementById("text").style.color = 'red';
