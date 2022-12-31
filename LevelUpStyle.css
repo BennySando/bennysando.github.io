@@ -8,17 +8,24 @@ h1, .description {
     text-align: center;
 }
 
-.characterData select, .characterData image {
+.characterData image {
     display: block;
 }
 
-.characterData, .buttonSpace {
-    display: inline;
+.characterData select, .characterData label {
+    display: inline-block;
 }
+
+.characterData, .buttonSpace {
+    display: inline-block;
+    width: 40%;
+}
+
 
 .controls {
     margin: 0 auto;
-    background-color: green;
+    background-color: yellow;
+    width: 60%;
 }
 
 .classData {
