@@ -40,11 +40,11 @@ h1, .description {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
-    width: 20%;
 }
 
 .leftStat, .statLabel {
     text-align: left;
+    width: 20%;
 }
 
 .rightStat {
