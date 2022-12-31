@@ -18,6 +18,7 @@ h1, .description {
 
 .controls {
     margin: 0 auto;
+    background-color: green;
 }
 
 .classData {
