@@ -14,8 +14,8 @@ function bruhify() {
         }
     }
     if (val == 0){
-        document.getElementById("text").style.color = 'red';
+        document.getElementById("Head").style.color = 'red';
     } else if (val == 1){
-        document.getElementById("text").style.color = 'white';
+        document.getElementById("Head").style.color = 'white';
     }
 }
