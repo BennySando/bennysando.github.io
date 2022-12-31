@@ -14,11 +14,11 @@ function bruhify() {
             break;
         }
     }
+
+    //How to change color of text
     if (val == 0){
-        alert("RADIO 1 IS SELECTED");
         document.getElementById("Head").style.color = 'red';
     } else if (val == 1){
-        alert("RADIO 2 IS SELECTED");
         document.getElementById("Head").style.color = 'white';
     }
 }
