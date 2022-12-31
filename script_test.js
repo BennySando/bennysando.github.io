@@ -10,7 +10,7 @@ function bruhify() {
     let val = 0;
     for (var i = 0; i < buttons.length; i++){
         if (buttons[i].checked){
-            val = buttons[i];
+            val = buttons[i].value;
             break;
         }
     }
