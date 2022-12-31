@@ -41,6 +41,7 @@ h1, .description {
 
 .level {
     text-align: right;
+    background-color: purple;
     width: 50%;
 }
 
