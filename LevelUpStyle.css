@@ -30,13 +30,13 @@ h1, .description {
 
 .classData {
     margin: 0 auto;
+    width: 40%;
+    padding: 10px;
+    background-color: green;
 }
 
 .classData p {
     display: inline;
-    width: 40%;
-    padding: 10px;
-    background-color: green;
 }
 
 .level {
@@ -69,7 +69,7 @@ h1, .description {
 .modifierSpace {
     margin: 0 auto;
     margin-top: 20px;
-    width: 80%;
+    width: 90%;
     background-color: red;
 }
 
