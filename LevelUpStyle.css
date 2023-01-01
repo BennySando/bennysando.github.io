@@ -37,12 +37,11 @@ h1, .description {
 
 .classData p {
     display: inline-block;
+    width: 50%;
 }
 
 .level {
     text-align: right;
-    background-color: purple;
-    width: 50%;
 }
 
 .statWindow {
