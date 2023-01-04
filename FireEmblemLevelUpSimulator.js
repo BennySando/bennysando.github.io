@@ -46,7 +46,6 @@ async function setUp(characterVal){
         promotion = currCharacter.promotedClass;
     }
     currStats = currCharacter.baseStats;
-    let numStats = 8;
     for (var i = 0; i < numStats; i++){
         document.getElementById("statVal" + i).innerHTML = currStats[i];
     }
@@ -66,6 +65,7 @@ async function setUp(characterVal){
 
 function levelUp(){
     if (currLevel < maxLevel){
+        alert("In if statement");
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
         let mods = document.getElementsByName("growthMod")
@@ -119,15 +119,15 @@ function levelUp(){
     }
 }
 
-    function promote() {
-    currLevel = 1;
-    document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
-    document.getElementById("currentClass").innerHTML = promotion;
-    for (var i = 0; i < numStats; i++){
-        currStats[i] += promotionBonuses[i];
-        document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + promotionBonuses[i]);
-    }
-    canPromote = false;
-    document.getElementById("promote").hidden = true;
+function promote() {
+currLevel = 1;
+document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
+document.getElementById("currentClass").innerHTML = promotion;
+for (var i = 0; i < numStats; i++){
+    currStats[i] += promotionBonuses[i];
+    document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + promotionBonuses[i]);
+}
+canPromote = false;
+document.getElementById("promote").hidden = true;
 }
 
