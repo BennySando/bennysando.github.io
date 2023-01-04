@@ -58,5 +58,6 @@ async function setUp(characterVal){
     } else {
         document.getElementById("wardMod").hidden = true;
         document.getElementById("wardLabel").hidden = true;
+        document.getElementById("noMod").checked = true;
     }
 }
