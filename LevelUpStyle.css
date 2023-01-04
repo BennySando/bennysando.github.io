@@ -23,7 +23,6 @@ h1, .description {
 
 .buttonSpace button {
     width: 50%;
-    display: block;
     height: 50px;
 }
 
@@ -31,7 +30,6 @@ h1, .description {
     margin: 0 auto;
     background-color: purple;
     width: 60%;
-    padding: 20px;
 }
 
 .classData {
@@ -56,7 +54,6 @@ h1, .description {
     width: 40%;
     background-color: blue;
     padding: 10px;
-    padding-left: 40px;
 }
 
 .statLine p {
@@ -68,6 +65,10 @@ h1, .description {
 .leftStat, .statLabel {
     text-align: left;
     width: 20%;
+}
+
+.statLabel {
+    margin-left: 10px;
 }
 
 .rightStat {
