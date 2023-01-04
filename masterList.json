@@ -411,6 +411,16 @@
             "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25]
         },
         {
+            "name": "Ranulf",
+            "profilePic": "https://cdn.fireemblemwiki.org/c/c0/Medium_portrait_ranulf_fe09.png?20220623191702",
+            "baseClass": "Cat",
+            "baseLevel": 9,
+            "canPromote": false,
+            "baseStats": [46, 19, 4, 17, 17, 13, 17, 6],
+            "growthRates": [130, 50, 0, 55, 55, 35, 35, 20],
+            "promotedCaps": [70, 29, 20, 34, 35, 40, 30, 24]
+        },
+        {
             "name": "Haar",
             "profilePic": "https://cdn.fireemblemwiki.org/8/86/Medium_portrait_haar_fe09.png?20220623191536",
             "baseClass": "Wyvern Lord",
