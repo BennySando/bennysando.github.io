@@ -48,8 +48,6 @@ async function setUp(characterVal){
     for (var i = 0; i < numStats; i++){
         document.getElementById("statVal" + i).innerHTML = currStats[i];
     }
-    document.getElementById("statVal0").innerHTML = currStats[0];
-    document.getElementById("statVal" + 1).innerHTML = currStats[1];
     currGrowths = currCharacter.growthRates;
     promotionBonuses = currCharacter.promotionGains;
     unpromotedCaps = currCharacter.unpromotedCaps;
