@@ -9,7 +9,7 @@ h1, .description {
 }
 
 .characterData {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .characterData image {
@@ -28,11 +28,12 @@ h1, .description {
 .buttonSpace button {
     width: 49%;
     height: 50px;
+    margin-bottom: 10px;
 }
 
 .controls {
     margin: 0 auto;
-    background-color: purple;
+    background-color: yellow;
     width: 60%;
 }
 
