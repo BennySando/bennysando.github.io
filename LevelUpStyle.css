@@ -14,7 +14,7 @@ h1, .description {
 
 .characterData image {
     display: block;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .characterData select, .characterData label {
@@ -34,7 +34,7 @@ h1, .description {
 
 .controls {
     margin: 0 auto;
-    background-color: yellow;
+    background-color: purple;
     width: 60%;
 }
 
@@ -74,7 +74,7 @@ h1, .description {
 }
 
 .statLabel {
-    margin-left: 60px;
+    margin-left: 80px;
 }
 
 .rightStat {
