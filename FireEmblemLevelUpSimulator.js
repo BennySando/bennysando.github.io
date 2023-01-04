@@ -64,7 +64,6 @@ async function setUp(characterVal){
 }
 
 function levelUp(){
-    alert("promotion == " + promotion);
     if (currLevel < maxLevel){
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
@@ -88,6 +87,7 @@ function levelUp(){
         } else {
             currCaps = promotedCaps;
         }
+        alert("currCaps == " + currCaps);
 
         //TODO: check if there's a better way to do this. As of now, I'm assuming that all p elements store strings
         for (var i = 0; i < numStats; i++){
@@ -98,7 +98,7 @@ function levelUp(){
                     changeVal++;
                     growth -= 100;
                 }
-                let chance = (integer)((Math.random() * 100) + 1);
+                let chance = (Math.random() * 100) + 1;
                 if (chance <= growth){
                     changeVal++;
                 }
