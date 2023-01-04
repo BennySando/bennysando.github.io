@@ -105,6 +105,8 @@ function levelUp(){
                 if (changeVal > 0){
                     currStats[i] += changeVal;
                     document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + changeVal);
+                } else {
+                    document.getElementById("statVal" + i).innerHTML = (currStats[i]);
                 }
             }
         }
