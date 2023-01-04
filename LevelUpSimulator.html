@@ -7,12 +7,11 @@
     </head>   
     <body>
         <h1>Fire Emblem Level-Up Simulator</h1>
-        <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added) (Design and JavaScript under construction) Updated</p>
+        <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added) (Design and JavaScript under construction)</p>
         <div id="controls" name="controls" class="controls">
             <div id="characterData" name="characterData" class="characterData">
                 <image id="charImage" name="charImage" src="https://cdn.fireemblemwiki.org/4/4b/Medium_portrait_ike_ranger_01_fe09.png?20220622152248"></image>
                 <label id="selectLabel" name="selectLabel" for="characterChoice">Select a character
-                    <!--TODO: Add function to update stats when this is changed-->
                     <select id="characterSelect" name="characterSelect" onchange="setUp(this.value)">
                         <option value="0">Ike</option>
                         <option value="1">Titania</option>
@@ -65,11 +64,8 @@
                 </label>
             </div>
             <div id="buttonSpace" name="buttonSpace" class="buttonSpace">
-                <!--TODO: Add onlcick that runs necessary level up functions-->
-                <button id="levelUp" name="levelUp" class="advanceButton">Level Up!</button>
-    
-                <!--TODO: Add onlcick that runs necessary promotion functions-->
-                <button id="promote" name="promote" class="advanceButton" hidden>Promote!</button>
+                <button id="levelUp" name="levelUp" class="advanceButton" onclick="levelUp()">Level Up!</button>
+                <button id="promote" name="promote" class="advanceButton" onclick="promote()"hidden>Promote!</button>
             </div>
         </div>
         <div id="classData" name="classData" class="classData">

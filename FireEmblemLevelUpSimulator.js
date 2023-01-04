@@ -61,3 +61,68 @@ async function setUp(characterVal){
         document.getElementById("wardLabel").hidden = true;
     }
 }
+
+function levelUp(){
+    if (currLevel < maxLevel){
+        currLevel++;
+        document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
+        let mods = document.getElementsByName("growthMod")
+        let val;
+        for (var i = 0; i < mods.length; i++){
+            if (mods[i].checked){
+                val = mods[i].value;
+                break;
+            }
+        }
+        let currMod;
+        if (val == ""){
+            currMod = [0, 0, 0, 0, 0, 0, 0, 0]
+        } else {
+            currMod = modList[val];
+        }
+        let currCaps;
+        if (canPromote){
+            currCaps = unpromotedCaps;
+        } else {
+            currCaps = promotedCaps;
+        }
+
+        //TODO: check if there's a better way to do this. As of now, I'm assuming that all p elements store strings
+        for (var i = 0; i < numStats; i++){
+            if (currStats[i] < currCaps[i]){
+                let growth = currGrowths[i] + currMod[i];
+                let changeVal = 0;
+                if (growth > 100){
+                    changeVal++;
+                    growth -= 100;
+                }
+                let chance = (integer)((Math.random() * 100) + 1);
+                if (chance <= growth){
+                    changeVal++;
+                    currStats[i] += changeVal;
+                    document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + changeVal);
+                }
+            }
+        }
+        if (currLevel == maxLevel && !canPromote){
+            document.getElementById("levelUp").hidden = true;
+        }
+        if (currLevel >= 10){
+            document.getElementById("promote").hidden = false;
+        }
+    } else if (currLevel == maxLevel && canPromote){
+        promote();
+    }
+
+    function promote() {
+        currLevel = 1;
+        document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
+        document.getElementById("currentClass").innerHTML = promotion;
+        for (var i = 0; i < numStats; i++){
+            currStats[i] += promotionBonuses[i];
+            document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + promotionBonuses[i]);
+        }
+        canPromote = false;
+        document.getElementById("promote").hidden = true;
+    }
+}
