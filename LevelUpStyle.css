@@ -32,7 +32,7 @@ h1, .description {
 
 .controls {
     margin: 0 auto;
-    background-color: yellow;
+    background-color: purple;
     width: 60%;
 }
 
@@ -72,7 +72,7 @@ h1, .description {
 }
 
 .statLabel {
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .rightStat {
