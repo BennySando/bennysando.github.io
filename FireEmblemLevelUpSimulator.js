@@ -18,6 +18,8 @@ let thiefMod = [0, 0, 0, 5, 5, 0, 0, 0]
 let priestMod = [0, 0, 0, 0, 0, 5, 0, 5]
 let swordMod = [0, 0, 0, 5, 0, 5, 0, 0]
 let wardMod = [0, 0, 0, 0, 30, 0, 0, 0]
+const maxLevel = 20;
+const numStats = 8;
 
 async function getFile(){
     const URL = "https://bennysando.github.io/masterList.json";
