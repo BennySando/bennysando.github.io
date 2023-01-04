@@ -33,9 +33,9 @@ async function setUp(characterVal){
     document.getElementById("charImage").src = currCharacter.profilePic; 
     document.getElementById("currentClass").innerHTML = currCharacter.baseClass;
     currLevel = currCharacter.baseLevel;
-    document.getElementById("currentLevel").innerHTML = "Lv " + level;
+    document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
     canPromote = currCharacter.canPromote;
-    if (level >= 10 && canPromote){
+    if (currLevel >= 10 && canPromote){
         document.getElementById("promote").hidden = false;
     } else {
         document.getElementById("promote").hidden = true;
@@ -48,6 +48,8 @@ async function setUp(characterVal){
     for (var i = 0; i < numStats; i++){
         document.getElementById("statVal" + i).innerHTML = currStats[i];
     }
+    document.getElementById("statVal0").innerHTML = currStats[0];
+    document.getElementById("statVal" + 1).innerHTML = currStats[1];
     currGrowths = currCharacter.growthRates;
     promotionBonuses = currCharacter.promotionGains;
     unpromotedCaps = currCharacter.unpromotedCaps;
