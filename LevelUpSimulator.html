@@ -7,7 +7,7 @@
     </head>   
     <body>
         <h1>Fire Emblem Level-Up Simulator</h1>
-        <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added) (Design and JavaScript under construction)</p>
+        <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added) (Design and JavaScript under construction) Updated</p>
         <div id="controls" name="controls" class="controls">
             <div id="characterData" name="characterData" class="characterData">
                 <image id="charImage" name="charImage" src="https://cdn.fireemblemwiki.org/4/4b/Medium_portrait_ike_ranger_01_fe09.png?20220622152248"></image>
@@ -89,31 +89,31 @@
         </div>
         <div id="modifierSpace" name="modifierSpace" class="modifierSpace">
            <p id="modifierLabel" name="modifierLabel" class="modifierLabel">Growth Modifiers</p>
-           <input type="radio" id="noMod" name="growthMod" class="modSelect" value="" checked />
+           <input type="radio" id="noMod" name="growthMod" class="modSelect" value="0" checked />
            <label for="none" name="noneLabel" id="noneLabel" class="modLabel">None</label>
-           <input type="radio" id="soldierMod" name="growthMod" class="modSelect" value="0" />
+           <input type="radio" id="soldierMod" name="growthMod" class="modSelect" value="1" />
            <label for="soldierMod" name="soldierLabel" id="soldierLabel" class="modLabel">Soldier Band</label>
-           <input type="radio" id="archerMod" name="growthMod" class="modSelect" value="1" />
+           <input type="radio" id="archerMod" name="growthMod" class="modSelect" value="2" />
            <label for="archerMod" name="archerLabel" id="archerLabel" class="modLabel">Archer Band</label>
-           <input type="radio" id="mageMod" name="growthMod" class="modSelect" value="2" />
+           <input type="radio" id="mageMod" name="growthMod" class="modSelect" value="3" />
            <label for="mageMod" name="mageLabel" id="mageLabel" class="modLabel">Mage Band</label>
-           <input type="radio" id="fighterMod" name="growthMod" class="modSelect" value="3" />
+           <input type="radio" id="fighterMod" name="growthMod" class="modSelect" value="4" />
            <label for="fighterMod" name="fighterLabel" id="fighterLabel" class="modLabel">Fighter Band</label>
-           <input type="radio" id="knightMod" name="growthMod" class="modSelect" value="4" />
+           <input type="radio" id="knightMod" name="growthMod" class="modSelect" value="5" />
            <label for="knightMod" name="knightLabel" id="knightLabel" class="modLabel">Knight Band</label>
-           <input type="radio" id="paladinMod" name="growthMod" class="modSelect" value="5" />
+           <input type="radio" id="paladinMod" name="growthMod" class="modSelect" value="6" />
            <label for="paladinMod" name="paladinLabel" id="paladinLabel" class="modLabel">Paladin Band</label>
-           <input type="radio" id="pegasusMod" name="growthMod" class="modSelect" value="6" />
+           <input type="radio" id="pegasusMod" name="growthMod" class="modSelect" value="7" />
            <label for="pegasusMod" name="pegasusLabel" id="pegasusLabel" class="modLabel">Pegasus Band</label>
-           <input type="radio" id="wyvernMod" name="growthMod" class="modSelect" value="7" />
+           <input type="radio" id="wyvernMod" name="growthMod" class="modSelect" value="8" />
            <label for="wyvernMod" name="wyvernLabel" id="wyvernLabel" class="modLabel">Wyvern Band</label>
-           <input type="radio" id="thiefMod" name="growthMod" class="modSelect" value="8" />
+           <input type="radio" id="thiefMod" name="growthMod" class="modSelect" value="9" />
            <label for="thiefMod" name="thiefLabel" id="thiefLabel" class="modLabel">Thief Band</label>
-           <input type="radio" id="priestMod" name="growthMod" class="modSelect" value="9" />
+           <input type="radio" id="priestMod" name="growthMod" class="modSelect" value="10" />
            <label for="priestMod" name="priestLabel" id="priestLabel" class="modLabel">Priest Band</label>
-           <input type="radio" id="swordMod" name="growthMod" class="modSelect" value="10" />
+           <input type="radio" id="swordMod" name="growthMod" class="modSelect" value="11" />
            <label for="swordMod" name="swordLabel" id="swordLabel" class="modLabel">Sword Band</label>
-           <input type="radio" id="wardMod" name="growthMod" class="modSelect" value="10" hidden />
+           <input type="radio" id="wardMod" name="growthMod" class="modSelect" value="12" hidden />
            <label for="wardMod" name="wardLabel" id="wardLabel" class="modLabel" hidden>Knight Ward</label>
         </div>
         <script src="FireEmblemLevelUpSimulator.js"></script>

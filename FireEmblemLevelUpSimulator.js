@@ -6,6 +6,7 @@ let currGrowths;
 let promotionBonuses;
 let unpromotedCaps;
 let promotedCaps;
+let noMod = [0, 0, 0, 0, 0, 0, 0, 0]
 let soldierMod = [5, 0, 0, 0, 0, 0, 5, 0]
 let archerMod = [0, 0, 0, 5, 5, 0, 0, 0]
 let mageMod = [0, 0, 10, 0, 0, 0, 0, 0]
@@ -18,6 +19,7 @@ let thiefMod = [0, 0, 0, 5, 5, 0, 0, 0]
 let priestMod = [0, 0, 0, 0, 0, 5, 0, 5]
 let swordMod = [0, 0, 0, 5, 0, 5, 0, 0]
 let wardMod = [0, 0, 0, 0, 30, 0, 0, 0]
+let modList = [noMod, soldierMod, archerMod, mageMod, fighterMod, knightMod, paladinMod, pegasusMod, wyvernMod, thiefMod, priestMod, swordMod, wardMod]
 const maxLevel = 20;
 const numStats = 8;
 
@@ -68,26 +70,20 @@ function levelUp(){
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
         let mods = document.getElementsByName("growthMod")
-        let val;
+        let val = 0;
         for (var i = 0; i < mods.length; i++){
             if (mods[i].checked){
                 val = mods[i].value;
                 break;
             }
         }
-        let currMod;
-        if (val == ""){
-            currMod = [0, 0, 0, 0, 0, 0, 0, 0]
-        } else {
-            currMod = modList[val];
-        }
+        let currMod = modList[val];
         let currCaps;
         if (canPromote){
             currCaps = unpromotedCaps;
         } else {
             currCaps = promotedCaps;
         }
-        alert("currCaps == " + currCaps);
 
         //TODO: check if there's a better way to do this. As of now, I'm assuming that all p elements store strings
         for (var i = 0; i < numStats; i++){
