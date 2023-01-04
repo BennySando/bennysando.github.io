@@ -64,7 +64,7 @@ async function setUp(characterVal){
 }
 
 function levelUp(){
-    alert("currLevel == " + currLevel);
+    alert("currGrowths == " + currGrowths);
     if (currLevel < maxLevel){
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
@@ -122,14 +122,14 @@ function levelUp(){
 }
 
 function promote() {
-currLevel = 1;
-document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
-document.getElementById("currentClass").innerHTML = promotion;
-for (var i = 0; i < numStats; i++){
-    currStats[i] += promotionBonuses[i];
-    document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + promotionBonuses[i]);
-}
-canPromote = false;
-document.getElementById("promote").hidden = true;
+    currLevel = 1;
+    document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
+    document.getElementById("currentClass").innerHTML = promotion;
+    for (var i = 0; i < numStats; i++){
+        currStats[i] += promotionBonuses[i];
+        document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + promotionBonuses[i]);
+    }
+    canPromote = false;
+    document.getElementById("promote").hidden = true;
 }
 
