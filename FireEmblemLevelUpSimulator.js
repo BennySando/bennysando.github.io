@@ -64,8 +64,8 @@ async function setUp(characterVal){
 }
 
 function levelUp(){
+    alert("currLevel == " + currLevel);
     if (currLevel < maxLevel){
-        alert("In if statement");
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
         let mods = document.getElementsByName("growthMod")
