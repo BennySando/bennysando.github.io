@@ -23,6 +23,7 @@ let modList = [noMod, soldierMod, archerMod, mageMod, fighterMod, knightMod, pal
 const maxLevel = 20;
 const numStats = 8;
 
+// Fetches the masterList, which stores all the data for very character
 async function getFile(){
     const URL = "https://bennysando.github.io/masterList.json";
     const request = new Request(URL);
@@ -31,6 +32,8 @@ async function getFile(){
     return file;
 }
 
+// Sets the screen to its default state and populates all necessary fields with data from character
+// represented by the character value passed in
 async function setUp(characterVal){
     let masterFile = await getFile();
     let currCharacter = masterFile["pathOfRadiance"][characterVal];
@@ -70,6 +73,9 @@ async function setUp(characterVal){
     }
 }
 
+// Goes through each of a character's stats and determines whether that stat would increase upon level-up
+// bsed on random number generation. Also updates any necessary data and handles other edge cases such as whether
+// a unit can now promote
 function levelUp(){
     if (currLevel < maxLevel){
         currLevel++;
@@ -109,6 +115,8 @@ function levelUp(){
                 } else {
                     document.getElementById("statVal" + i).innerHTML = (currStats[i]);
                 }
+            } else {
+                document.getElementById("statVal" + i).innerHTML = (currStats[i]);
             }
         }
         if (currLevel == maxLevel && !canPromote){
@@ -122,6 +130,8 @@ function levelUp(){
     }
 }
 
+//Advances a character to their promoted class, changing their class, resetting their level, and applying stat
+// bonuses
 function promote() {
     currLevel = 1;
     document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
