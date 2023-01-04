@@ -21,7 +21,7 @@ h1, .description {
 }
 
 .characterData, .buttonSpace {
-    display: inline-block;
+    display: inline;
     width: 40%;
 }
 
@@ -33,7 +33,7 @@ h1, .description {
 
 .controls {
     margin: 0 auto;
-    background-color: yellow;
+    background-color: purple;
     width: 60%;
 }
 
