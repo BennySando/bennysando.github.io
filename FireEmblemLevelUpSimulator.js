@@ -39,23 +39,28 @@ async function setUp(characterVal){
     currLevel = currCharacter.baseLevel;
     document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
     canPromote = currCharacter.canPromote;
-    if (currLevel >= 10 && canPromote){
-        document.getElementById("promote").hidden = false;
-    } else {
-        document.getElementById("promote").hidden = true;
-    }
-    if (canPromote){
-        promotion = currCharacter.promotedClass;
-    }
+    promotion = currCharacter.promotedClass;
+    promotionBonuses = currCharacter.promotionGains;
     currStats = currCharacter.baseStats;
     for (var i = 0; i < numStats; i++){
         document.getElementById("statVal" + i).innerHTML = currStats[i];
     }
     currGrowths = currCharacter.growthRates;
-    promotionBonuses = currCharacter.promotionGains;
     unpromotedCaps = currCharacter.unpromotedCaps;
     promotedCaps = currCharacter.promotedCaps;
+    if (currLevel == maxLevel && !canPromote){
+        document.getElementById("levelUp").hidden = true;
+    } else {
+        document.getElementById("levelUp").hidden = false;
+    }
+    if (currLevel >= 10 && canPromote){
+        document.getElementById("promote").hidden = false;
+    } else {
+        document.getElementById("promote").hidden = true;
+    }
     document.getElementById("noMod").checked = true;
+
+    //TODO: try and find a better solution to this problem, if one exists
     if (currCharacter.knightWard != undefined){
         document.getElementById("wardMod").hidden = false;
         document.getElementById("wardLabel").hidden = false;
