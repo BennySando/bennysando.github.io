@@ -14,6 +14,7 @@ h1, .description {
 
 .characterData image {
     display: block;
+    margin-top: 10px;
 }
 
 .characterData select, .characterData label {
@@ -21,7 +22,7 @@ h1, .description {
 }
 
 .characterData, .buttonSpace {
-    display: inline;
+    display: inline-block;
     width: 40%;
 }
 
@@ -33,7 +34,7 @@ h1, .description {
 
 .controls {
     margin: 0 auto;
-    background-color: purple;
+    background-color: yellow;
     width: 60%;
 }
 
