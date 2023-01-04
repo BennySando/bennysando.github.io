@@ -64,7 +64,7 @@ async function setUp(characterVal){
 }
 
 function levelUp(){
-    alert("currGrowths == " + currGrowths);
+    alert("promotion == " + promotion);
     if (currLevel < maxLevel){
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
