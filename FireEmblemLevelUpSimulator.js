@@ -65,6 +65,7 @@ async function setUp(characterVal){
 }
 
 function levelUp(){
+    alert ("Level-up button has been pressed");
     if (currLevel < maxLevel){
         currLevel++;
         document.getElementById("currentLevel").innerHTML = "Lv " + currLevel;
@@ -101,6 +102,8 @@ function levelUp(){
                 let chance = (integer)((Math.random() * 100) + 1);
                 if (chance <= growth){
                     changeVal++;
+                }
+                if (changeVal > 0){
                     currStats[i] += changeVal;
                     document.getElementById("statVal" + i).innerHTML = (currStats[i] + " + " + changeVal);
                 }
