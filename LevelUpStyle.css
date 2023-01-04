@@ -21,11 +21,17 @@ h1, .description {
     width: 40%;
 }
 
+.buttonSpace button {
+    width: 50%;
+    display: block;
+    height: 50px;
+}
 
 .controls {
     margin: 0 auto;
-    background-color: yellow;
+    background-color: purple;
     width: 60%;
+    padding: 20px;
 }
 
 .classData {
@@ -33,6 +39,7 @@ h1, .description {
     width: 40%;
     padding: 10px;
     background-color: green;
+    margin-top: 5px;
 }
 
 .classData p {
@@ -46,10 +53,10 @@ h1, .description {
 
 .statWindow {
     margin: 0 auto;
-    margin-top: 5px;
     width: 40%;
     background-color: blue;
     padding: 10px;
+    padding-left: 40px;
 }
 
 .statLine p {
