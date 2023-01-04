@@ -114,7 +114,7 @@ function levelUp(){
         if (currLevel == maxLevel && !canPromote){
             document.getElementById("levelUp").hidden = true;
         }
-        if (currLevel >= 10){
+        if (currLevel >= 10 && canPromote){
             document.getElementById("promote").hidden = false;
         }
     } else if (currLevel == maxLevel && canPromote){
