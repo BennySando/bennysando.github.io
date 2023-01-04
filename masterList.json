@@ -21,7 +21,8 @@
             "canPromote": false,
             "baseStats": [33, 12, 4, 13, 14, 11, 11, 7],
             "growthRates": [80, 45, 25, 60, 50, 45, 40, 45],
-            "promotedCaps": [60, 25, 20, 26, 27, 40, 27, 26]
+            "promotedCaps": [60, 25, 20, 26, 27, 40, 27, 26],
+            "knightWard": true
         },
         {
             "name": "Oscar",
@@ -34,7 +35,8 @@
             "growthRates": [55, 45, 20, 50, 45, 30, 35, 30],
             "promotionGains": [3, 2, 2, 2, 2, 0, 2, 3],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 20],
-            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25]
+            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25],
+            "knightWard": true
         },
         {
             "name": "Boyd",
@@ -83,7 +85,8 @@
             "growthRates": [80, 55, 5, 55, 25, 25, 60, 30],
             "promotionGains": [3, 3, 2, 2, 2, 0, 2, 3],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 20],
-            "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25]
+            "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25],
+            "knightWard": true
         },
         {
             "name": "Soren",
@@ -207,7 +210,8 @@
             "growthRates": [60, 50, 15, 50, 40, 25, 40, 30],
             "promotionGains": [3, 2, 2, 2, 2, 0, 2, 3],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 20],
-            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25]
+            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25],
+            "knightWard": true
         },
         {
             "name": "Brom",
@@ -220,7 +224,8 @@
             "growthRates": [75, 45, 10, 50, 25, 20, 55, 25],
             "promotionGains": [3, 3, 2, 2, 2, 0, 1, 3],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 20],
-            "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25]
+            "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25],
+            "knightWard": true
         },
         {
             "name": "Nephenee",
@@ -233,7 +238,8 @@
             "growthRates": [55, 40, 20, 55, 55, 25, 35, 25],
             "promotionGains": [4, 2, 1, 2, 2, 0, 2, 2],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 20],
-            "promotedCaps": [60, 25, 20, 28, 26, 40, 28, 25]
+            "promotedCaps": [60, 25, 20, 28, 26, 40, 28, 25],
+            "knightWard": true
         },
         {
             "name": "Zihark",
@@ -292,7 +298,8 @@
             "growthRates": [45, 40, 20, 55, 50, 40, 30, 25],
             "promotionGains": [5, 2, 2, 2, 1, 0, 3, 2],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 15],
-            "promotedCaps": [60, 25, 20, 26, 27, 40, 27, 26]
+            "promotedCaps": [60, 25, 20, 26, 27, 40, 27, 26],
+            "knightWard": true
         },
         {
             "name": "Makalov",
@@ -305,7 +312,8 @@
             "growthRates": [60, 55, 5, 45, 50, 25, 45, 20],
             "promotionGains": [3, 2, 2, 2, 2, 0, 2, 3],
             "unpromotedCaps": [40, 20, 15, 20, 20, 40, 20, 20],
-            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25]
+            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25],
+            "knightWard": true
         },
         {
             "name": "Stefan",
@@ -348,7 +356,8 @@
             "canPromote": false,
             "baseStats": [36, 14, 7, 15, 13, 16, 11, 10],
             "growthRates": [75, 60, 30, 40, 35, 40, 45, 25],
-            "promotedCaps": [60, 25, 20, 28, 26, 40, 28, 25]
+            "promotedCaps": [60, 25, 20, 28, 26, 40, 28, 25],
+            "knightWard": true
         },
         {
             "name": "Tanith",
@@ -408,7 +417,8 @@
             "canPromote": false,
             "baseStats": [48, 22, 11, 18, 13, 14, 22, 14],
             "growthRates": [60, 55, 5, 50, 30, 15, 60, 40],
-            "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25]
+            "promotedCaps": [60, 29, 20, 27, 24, 40, 30, 25],
+            "knightWard": true
         },
         {
             "name": "Ranulf",
@@ -458,7 +468,8 @@
             "canPromote": false,
             "baseStats": [43, 18, 9, 17, 19, 12, 21, 9],
             "growthRates": [65, 50, 25, 55, 55, 20, 45, 45],
-            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25]
+            "promotedCaps": [60, 26, 20, 26, 27, 40, 27, 25],
+            "knightWard": true
         },
         {
             "name": "Largo",

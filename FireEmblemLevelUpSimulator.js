@@ -52,4 +52,11 @@ async function setUp(characterVal){
     promotionBonuses = currCharacter.promotionGains;
     unpromotedCaps = currCharacter.unpromotedCaps;
     promotedCaps = currCharacter.promotedCaps;
+    if (currCharacter.knightWard != undefined){
+        document.getElementById("wardMod").hidden = false;
+        document.getElementById("wardLabel").hidden = false;
+    } else {
+        document.getElementById("wardMod").hidden = true;
+        document.getElementById("wardLabel").hidden = true;
+    }
 }
