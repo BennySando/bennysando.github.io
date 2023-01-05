@@ -10,7 +10,8 @@ h1, .description {
 
 .characterData {
     margin-left: 60px;
-    background-color: grey;
+    background-color: yellow;
+    padding-top: 10px;
     height: 100%;
 }
 
