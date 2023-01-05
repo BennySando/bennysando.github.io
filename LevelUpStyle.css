@@ -32,7 +32,7 @@ h1, .description {
 
 .buttonSpace {
     align-content: center;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
 .buttonSpace button {
@@ -42,7 +42,7 @@ h1, .description {
 
 .controls {
     margin: 0 auto;
-    background-color: yellow;
+    background-color: purple;
     width: 60%;
 }
 
