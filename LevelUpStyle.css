@@ -35,7 +35,7 @@ h1, .description {
 .buttonSpace {
     align-content: center;
     margin-bottom: 40px;
-    background-color: grey;
+    background-color: yellow;
 }
 
 .buttonSpace button {
@@ -47,8 +47,8 @@ h1, .description {
     margin: 0 auto;
     background-color: purple;
     width: 60%;
-    height: 200px;
-    max-height: 200px;
+    height: 150px;
+    max-height: 150px;
 }
 
 .classData {
