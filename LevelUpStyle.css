@@ -11,7 +11,7 @@ h1, .description {
 .characterData {
     margin-left: 60px;
     background-color: grey;
-    margin-top: 50px;
+    height: 100%;
 }
 
 .characterData image {
@@ -28,7 +28,7 @@ h1, .description {
 }
 
 .characterData, .buttonSpace {
-    display: inline-block;
+    display: block;
     width: 40%;
 }
 
