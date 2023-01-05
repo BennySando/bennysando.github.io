@@ -10,6 +10,7 @@ h1, .description {
 
 .characterData {
     margin-left: 60px;
+    background-color: yellow;
 }
 
 .characterData image {
@@ -32,7 +33,8 @@ h1, .description {
 
 .buttonSpace {
     align-content: center;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
+    background-color: grey;
 }
 
 .buttonSpace button {
