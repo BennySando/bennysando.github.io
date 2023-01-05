@@ -28,14 +28,14 @@ h1, .description {
 }
 
 .characterData, .buttonSpace {
-    display: block;
+    display: inline-block;
     width: 40%;
 }
 
 .buttonSpace {
     align-content: center;
     margin-bottom: 40px;
-    background-color: grey;
+    background-color: yellow;
 }
 
 .buttonSpace button {
