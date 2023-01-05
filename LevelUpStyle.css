@@ -35,8 +35,8 @@ h1, .description {
 
 .buttonSpace {
     align-content: center;
-    margin-bottom: 40px;
-    background-color: grey;
+    margin-bottom: 60px;
+    background-color: yellow;
 }
 
 .buttonSpace button {
