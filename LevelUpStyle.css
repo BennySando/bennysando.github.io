@@ -32,12 +32,12 @@ h1, .description {
 .buttonSpace button {
     width: 49%;
     height: 50px;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .controls {
     margin: 0 auto;
-    background-color: yellow;
+    background-color: purple;
     width: 60%;
 }
 
