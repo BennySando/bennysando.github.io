@@ -11,6 +11,7 @@ h1, .description {
 .characterData {
     margin-left: 60px;
     background-color: yellow;
+    margin-top: 10px;
 }
 
 .characterData image {
