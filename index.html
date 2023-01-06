@@ -6,20 +6,30 @@
         <link rel="stylesheet" href="PersonalStyle.css" />
     </head>
     <body>
-        <h1>Hello, I'm Benjamin Sandoval</h1>
-        <h2>Thanks for checking out my website, by the way</h2>
-        <h2>About me</h2>
-        <p>
+        <h1 name="title" id="title" class="title">Hello, I'm Benjamin Sandoval</h1>
+        <p name="thanks" id="thanks" class="thanks">Thanks for checking out my website, by the way</p>
+        <h2 name="aboutTitle" id="aboutTitle" class="aboutTitle">About me</h2>
+        <p name="about" id="about" class="about">
             I'm from Friendswood, Texas, a town right in between Houston and Galveston. I graduated from Clear Springs High School and am 
             currently enrolled at the University of Texas at Austin as a computer science major. I built (and am currently working on) this website
             as a way to develop and hone my abillities with HTML, CSS, and, hopefully, a good bit of JavaScript. If you want to see something more interesting
             than a self-introduction, check below for pathways to other neat things like my resume or some projects.
         </p>
-        <a href="https://bennysando.github.io/test.html">
+        <h2 name="projects" id="projects" class="projects">Projects</h2>
+        <a href="https://bennysando.github.io/test.html" hidden>
             <button type="button">Test</button>
         </a>
-        <a href="https://bennysando.github.io/LevelUpSimulator.html">
-            <button type="button">Fire Emblem Level Up Simulator (WIP)</button>
-        </a>
+        <div class="simInfo">
+            <a href="https://bennysando.github.io/LevelUpSimulator.html">
+                <button type="button"  id="levelUpSim" class="levelUpSim">Fire Emblem Level Up Simulator (WIP)</button>
+            </a>
+            <p name="simData" id="simData" class="simData">
+                My first online project, and a remake of <a href="https://studio.code.org/projects/applab/JWkGEzif6XmZXZP10khABr2OnNV2D8Qa0TYbpq0S8Rw">
+                an older project</a> I made on <a href="https://code.org/">code.org</a> back during my junior year of high school. This time, it 
+                Features improvements such as much better design, base stats, promotions, level tracking, and more. This project 
+                helped me hone my skills with HTML, CSS, and JavaScript, and also taught me what a JSON file is. Right now, everything functions
+                as it should, but I still have some updates I would like to make.
+            </p>
+        </div>
     </body>
 </html>
