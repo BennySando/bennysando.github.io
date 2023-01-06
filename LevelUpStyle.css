@@ -2,15 +2,17 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
+    background-color: rgb(130, 191, 8)
 }
+
 
 h1, .description {
     text-align: center;
+    color: rgb(231, 229, 229)
 }
 
 .characterData {
     margin-left: 60px;
-    background-color: yellow;
     padding-top: 10px;
     height: 100%;
 }
@@ -36,18 +38,21 @@ h1, .description {
 .buttonSpace {
     align-content: center;
     margin-bottom: 60px;
-    background-color: grey;
 }
 
 .buttonSpace button {
     width: 49%;
     height: 50px;
     margin-bottom: 20px;
+    background-color: rgb(33, 33, 210);
+    color: white;
+    border-width: 5px;
+    border-color: gold;
 }
 
 .controls {
     margin: 0 auto;
-    background-color: purple;
+    background-color: rgb(252, 233, 215);
     width: 60%;
     height: 190px;
     max-height: 190px;
@@ -57,13 +62,16 @@ h1, .description {
     margin: 0 auto;
     width: 40%;
     padding: 10px;
-    background-color: green;
+    background-color: rgb(203, 19, 19);
+    border-width: 5px;
+    border-color: rgb(222, 189, 0);
     margin-top: 5px;
 }
 
 .classData p {
     display: inline-block;
     width: 50%;
+    color: white;
 }
 
 .level {
@@ -73,7 +81,9 @@ h1, .description {
 .statWindow {
     margin: 0 auto;
     width: 40%;
-    background-color: blue;
+    background-color: rgb(0, 0, 207);
+    border-width: 5px;
+    border-color: rgb(222, 189, 0);
     padding: 10px;
 }
 
@@ -81,6 +91,7 @@ h1, .description {
     display: inline-block;
     margin-top: 5px;
     margin-bottom: 5px;
+    color: white;
 }
 
 .leftStat, .statLabel {
@@ -100,7 +111,7 @@ h1, .description {
     margin: 0 auto;
     margin-top: 20px;
     width: 95%;
-    background-color: red;
+    background-color: rgb(252, 233, 215);
 }
 
 .modifierSpace p {
