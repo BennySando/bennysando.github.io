@@ -2,7 +2,7 @@ body {
     width: 100%;
     height: 100vh;
     margin: 0;
-    background-color: rgb(130, 191, 8)
+    background-color: rgb(44, 2, 86)
 }
 
 
@@ -56,14 +56,16 @@ h1, .description {
     width: 60%;
     height: 190px;
     max-height: 190px;
+    border-width: 2px;
+    border-color: black;
 }
 
 .classData {
     margin: 0 auto;
     width: 40%;
     padding: 10px;
-    background-color: rgb(203, 19, 19);
-    border-width: 5px;
+    background-color: rgb(154, 12, 12);
+    border-width: 2px;
     border-color: rgb(222, 189, 0);
     margin-top: 5px;
 }
@@ -81,10 +83,11 @@ h1, .description {
 .statWindow {
     margin: 0 auto;
     width: 40%;
-    background-color: rgb(0, 0, 207);
-    border-width: 5px;
+    background-color: rgb(3, 3, 155);
+    border-width: 2px;
     border-color: rgb(222, 189, 0);
     padding: 10px;
+    margin-top: 5px;
 }
 
 .statLine p {
