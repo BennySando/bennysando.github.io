@@ -121,7 +121,11 @@ h1, .description {
     text-align: center;
 }
 
+.tutorials {
+    background-color: rgb(252, 233, 215);
+    width: 90%;
+}
+
 .tutTitle, .tutorial {
     text-align: center;
-    color: white;
 }
