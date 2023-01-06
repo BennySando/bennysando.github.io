@@ -122,8 +122,8 @@ h1, .description {
 }
 
 .tutorials {
-    background-color: rgb(252, 233, 215);
     width: 90%;
+    margin: 0 auto; 
 }
 
 .tutTitle, .tutorial {
