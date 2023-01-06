@@ -7,7 +7,7 @@
     </head>   
     <body>
         <h1>Fire Emblem Level-Up Simulator</h1>
-        <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added) (Design and JavaScript under construction)</p>
+        <p class="description">Choose a game, choose a character, level them up, and see what happens! (More games to be added. Currently only features Fire Emblem: Path of Radiance)</p>
         <div id="controls" name="controls" class="controls">
             <div id="characterData" name="characterData" class="characterData">
                 <image id="charImage" name="charImage" src="https://cdn.fireemblemwiki.org/4/4b/Medium_portrait_ike_ranger_01_fe09.png?20220622152248"></image>
@@ -118,5 +118,30 @@
         </div>
         <script src="FireEmblemLevelUpSimulator.js"></script>
         <script>setUp(0)</script>
+        <div class="tutorials">
+            <h2 name="tutTitle" id="tutTitle" class="tutTitle">How level-ups work</h2>
+            <p name="levelTutorial" id="levelTutorial" class="tutorial">
+                In Fire Emblem, level-ups work on a system of random growths. That means that every character has a random
+                chance to gain each stat upon a level-up, such as a 60% chance to gain a point of HP, 50% to gain strength, 
+                5% to gain magic, and so on. In the rare case that a character has a growth rate over 100%, they are guaranteed to gain 
+                at least 1 point in the stat and then have a (growth - 100)% chance to gain a second point. If you would like
+                to know each character's growth rates, I recommend checking <a href=https://serenesforest.net/path-of-radiance/characters/growth-rates/>this page</a> on 
+                Serenes Forest. In some games, like the featured Path of Radiance, there are items that can offer bonuses to growth rates when 
+                equipped for more information on those, they're part of <a href="https://serenesforest.net/path-of-radiance/inventory/accessories/">this page</a> on
+                Serenes Forest.
+            </p>
+            <h2 name="tutTitle" id="tutTitle" class="tutTitle">How classes work</h2>
+            <p name="classTutorial" id="classTutorial" class="tutorial">
+                Each class has a maximum level. Currently, every game featured (which is just Path of Radiance for now) works
+                on a system where every class has a max level of 20. There are also two types of classes: base and promoted. 
+                With a couple of exceptions, every base class can promote into their respective promoted class. This can be done
+                via an item if the character is level 10 or higher, or - in a system unique to Path of Radiance and its sequel - 
+                by allowing the character to reach level 21 and promote naturally. When a character promotes, they gain set bonuses
+                to their stats and reset to level 1. In every game currently featured, promoted classes cannot promote again.
+                For more information on the promotion lines of each class and their respective promotion bonuses, I recommend
+                checking out <a href="https://serenesforest.net/path-of-radiance/classes/promotion-gains/">this page</a> on 
+                Serenes Forest.
+            </p>
+        </div>
     </body>
 </html>

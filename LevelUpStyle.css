@@ -120,3 +120,8 @@ h1, .description {
 .modifierSpace p {
     text-align: center;
 }
+
+.tutTitle, .tutorial {
+    text-align: center;
+    color: white;
+}
