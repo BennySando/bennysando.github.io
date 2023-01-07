@@ -132,7 +132,7 @@ h1, .description {
 }
 
 a:active {
-    color: white;
+    color: grey;
 }
 
 a:visited {
