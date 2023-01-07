@@ -128,4 +128,13 @@ h1, .description {
 
 .tutTitle, .tutorial {
     text-align: center;
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+
+a:visited {
+    color: grey;
 }
